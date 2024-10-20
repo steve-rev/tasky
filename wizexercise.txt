@@ -1,1 +1,2 @@
 this is an arbitrary file
+but it could contain bad stuff
