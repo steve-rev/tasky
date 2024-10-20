@@ -18,7 +18,8 @@ pipeline {
                  app = docker.build("tasky")
                 }
             }
-        }
+        } 
+#
         stage('Test'){
             steps {
                  echo 'Empty'
