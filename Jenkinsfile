@@ -14,9 +14,7 @@ pipeline {
 
         stage('Build') { 
             steps { 
-                script{
-                 app = docker.build("tasky")
-                }
+		sh 'docker build -t tasky .'
             }
         } 
         stage('Test'){
